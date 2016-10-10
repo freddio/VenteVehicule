@@ -1,5 +1,6 @@
 package fr.demos.formation.poe.ventevehicules;
 
+// Vehicule abstrait car pas d'identifiant
 public abstract class Vehicule {
 	private Modele modele;
 	private double prixHT;
