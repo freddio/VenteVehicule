@@ -2,6 +2,7 @@ package fr.demos.formation.poe.ventevehicules;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+// le garage est iterable
 public class Garage<T> implements Iterable<T> {
 	private String nom;
 	private ArrayList<T> contenu = new ArrayList<>();

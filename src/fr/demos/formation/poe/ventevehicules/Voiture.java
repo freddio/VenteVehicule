@@ -3,6 +3,7 @@ package fr.demos.formation.poe.ventevehicules;
 public class Voiture extends Vehicule {
 	private int kilometrage;
 	private String immatriculation; 
+	private String puissance;
 	
 	
 
